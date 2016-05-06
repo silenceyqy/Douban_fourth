@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9BE32E1CDCC4CE00582CA7 /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BE32D1CDCC4CE00582CA7 /* CDSideBarController.m */; };
 		0AADAE1F1CDB6BBC00CD88E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AADAE1E1CDB6BBC00CD88E6 /* main.m */; };
 		0AADAE221CDB6BBC00CD88E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AADAE211CDB6BBC00CD88E6 /* AppDelegate.m */; };
 		0AADAE251CDB6BBC00CD88E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AADAE241CDB6BBC00CD88E6 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9BE32C1CDCC4CE00582CA7 /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
+		0A9BE32D1CDCC4CE00582CA7 /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
 		0AADAE1A1CDB6BBC00CD88E6 /* DoubanFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AADAE1E1CDB6BBC00CD88E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AADAE201CDB6BBC00CD88E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9BE32F1CDCC4D400582CA7 /* CDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BE32C1CDCC4CE00582CA7 /* CDSideBarController.h */,
+				0A9BE32D1CDCC4CE00582CA7 /* CDSideBarController.m */,
+			);
+			name = CDSideBarController;
+			sourceTree = "<group>";
+		};
 		0AADAE111CDB6BBB00CD88E6 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +77,7 @@
 		0AADAE1C1CDB6BBC00CD88E6 /* DoubanFM */ = {
 			isa = PBXGroup;
 			children = (
+				0A9BE32F1CDCC4D400582CA7 /* CDSideBarController */,
 				0AADAE201CDB6BBC00CD88E6 /* AppDelegate.h */,
 				0AADAE211CDB6BBC00CD88E6 /* AppDelegate.m */,
 				0AADAE231CDB6BBC00CD88E6 /* ViewController.h */,
@@ -226,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AADAE251CDB6BBC00CD88E6 /* ViewController.m in Sources */,
+				0A9BE32E1CDCC4CE00582CA7 /* CDSideBarController.m in Sources */,
 				0AADAE221CDB6BBC00CD88E6 /* AppDelegate.m in Sources */,
 				0AADAE1F1CDB6BBC00CD88E6 /* main.m in Sources */,
 			);
